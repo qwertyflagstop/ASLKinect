@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0132B0751CAE28A000DC87A3 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0132B0741CAE28A000DC87A3 /* SceneKit.framework */; };
+		0132B0781CAE28FB00DC87A3 /* WorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132B0771CAE28FB00DC87A3 /* WorldView.m */; };
+		0132B0A01CAE2B3100DC87A3 /* WorlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132B09F1CAE2B3100DC87A3 /* WorlController.m */; };
+		0132B0A31CAEE82A00DC87A3 /* WorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0132B0A21CAEE82A00DC87A3 /* WorldScene.m */; };
+		0132B0A51CAEF45000DC87A3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0132B0A41CAEF45000DC87A3 /* SpriteKit.framework */; };
+		015E47D11CCC2731000B91DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E47D01CCC2731000B91DD /* main.m */; };
+		01ACA8511CB6031B00CA2A0D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ACA8501CB6031B00CA2A0D /* Accelerate.framework */; };
+		01EA6DE61CACAF09003B6CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA6DE51CACAF09003B6CFE /* AppDelegate.m */; };
+		01EA6DE91CACAF09003B6CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA6DE81CACAF09003B6CFE /* main.m */; };
+		01EA6DEB1CACAF09003B6CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EA6DEA1CACAF09003B6CFE /* Assets.xcassets */; };
+		01EA6DEE1CACAF09003B6CFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EA6DEC1CACAF09003B6CFE /* MainMenu.xib */; };
+		01EA6DF71CACAF3A003B6CFE /* libfreenect_sync.0.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EA6DF51CACAF3A003B6CFE /* libfreenect_sync.0.5.0.dylib */; };
+		01EA6DF81CACAF3A003B6CFE /* libfreenect.0.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EA6DF61CACAF3A003B6CFE /* libfreenect.0.5.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		015E47CC1CCC2731000B91DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0177AEC11CB6025F003DF420 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0132B0741CAE28A000DC87A3 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		0132B0761CAE28FB00DC87A3 /* WorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldView.h; sourceTree = "<group>"; };
+		0132B0771CAE28FB00DC87A3 /* WorldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldView.m; sourceTree = "<group>"; };
+		0132B09E1CAE2B3100DC87A3 /* WorlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorlController.h; sourceTree = "<group>"; };
+		0132B09F1CAE2B3100DC87A3 /* WorlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorlController.m; sourceTree = "<group>"; };
+		0132B0A11CAEE82A00DC87A3 /* WorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldScene.h; sourceTree = "<group>"; };
+		0132B0A21CAEE82A00DC87A3 /* WorldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldScene.m; sourceTree = "<group>"; };
+		0132B0A41CAEF45000DC87A3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		015E47CE1CCC2731000B91DD /* rename */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rename; sourceTree = BUILT_PRODUCTS_DIR; };
+		015E47D01CCC2731000B91DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01ACA8501CB6031B00CA2A0D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		01EA6DE11CACAF09003B6CFE /* KinnectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinnectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EA6DE41CACAF09003B6CFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01EA6DE51CACAF09003B6CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01EA6DE81CACAF09003B6CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01EA6DEA1CACAF09003B6CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01EA6DED1CACAF09003B6CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01EA6DEF1CACAF09003B6CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EA6DF51CACAF3A003B6CFE /* libfreenect_sync.0.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect_sync.0.5.0.dylib; path = ../../../../usr/local/Cellar/libfreenect/0.5.1/lib/libfreenect_sync.0.5.0.dylib; sourceTree = "<group>"; };
+		01EA6DF61CACAF3A003B6CFE /* libfreenect.0.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.0.5.0.dylib; path = ../../../../usr/local/Cellar/libfreenect/0.5.1/lib/libfreenect.0.5.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015E47CB1CCC2731000B91DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EA6DDE1CACAF09003B6CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ACA8511CB6031B00CA2A0D /* Accelerate.framework in Frameworks */,
+				0132B0A51CAEF45000DC87A3 /* SpriteKit.framework in Frameworks */,
+				0132B0751CAE28A000DC87A3 /* SceneKit.framework in Frameworks */,
+				01EA6DF71CACAF3A003B6CFE /* libfreenect_sync.0.5.0.dylib in Frameworks */,
+				01EA6DF81CACAF3A003B6CFE /* libfreenect.0.5.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015E47CF1CCC2731000B91DD /* rename */ = {
+			isa = PBXGroup;
+			children = (
+				015E47D01CCC2731000B91DD /* main.m */,
+			);
+			path = rename;
+			sourceTree = "<group>";
+		};
+		01EA6DD81CACAF09003B6CFE = {
+			isa = PBXGroup;
+			children = (
+				01ACA8501CB6031B00CA2A0D /* Accelerate.framework */,
+				0132B0A41CAEF45000DC87A3 /* SpriteKit.framework */,
+				0132B0741CAE28A000DC87A3 /* SceneKit.framework */,
+				01EA6DF51CACAF3A003B6CFE /* libfreenect_sync.0.5.0.dylib */,
+				01EA6DF61CACAF3A003B6CFE /* libfreenect.0.5.0.dylib */,
+				01EA6DE31CACAF09003B6CFE /* KinnectiveC */,
+				015E47CF1CCC2731000B91DD /* rename */,
+				01EA6DE21CACAF09003B6CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EA6DE21CACAF09003B6CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EA6DE11CACAF09003B6CFE /* KinnectiveC.app */,
+				015E47CE1CCC2731000B91DD /* rename */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EA6DE31CACAF09003B6CFE /* KinnectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				01EA6DE41CACAF09003B6CFE /* AppDelegate.h */,
+				01EA6DE51CACAF09003B6CFE /* AppDelegate.m */,
+				0132B0761CAE28FB00DC87A3 /* WorldView.h */,
+				0132B0771CAE28FB00DC87A3 /* WorldView.m */,
+				0132B09E1CAE2B3100DC87A3 /* WorlController.h */,
+				0132B09F1CAE2B3100DC87A3 /* WorlController.m */,
+				0132B0A11CAEE82A00DC87A3 /* WorldScene.h */,
+				0132B0A21CAEE82A00DC87A3 /* WorldScene.m */,
+				01EA6DEA1CACAF09003B6CFE /* Assets.xcassets */,
+				01EA6DEC1CACAF09003B6CFE /* MainMenu.xib */,
+				01EA6DEF1CACAF09003B6CFE /* Info.plist */,
+				01EA6DE71CACAF09003B6CFE /* Supporting Files */,
+			);
+			path = KinnectiveC;
+			sourceTree = "<group>";
+		};
+		01EA6DE71CACAF09003B6CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EA6DE81CACAF09003B6CFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015E47CD1CCC2731000B91DD /* rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015E47D41CCC2731000B91DD /* Build configuration list for PBXNativeTarget "rename" */;
+			buildPhases = (
+				015E47CA1CCC2731000B91DD /* Sources */,
+				015E47CB1CCC2731000B91DD /* Frameworks */,
+				015E47CC1CCC2731000B91DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rename;
+			productName = rename;
+			productReference = 015E47CE1CCC2731000B91DD /* rename */;
+			productType = "com.apple.product-type.tool";
+		};
+		01EA6DE01CACAF09003B6CFE /* KinnectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EA6DF21CACAF09003B6CFE /* Build configuration list for PBXNativeTarget "KinnectiveC" */;
+			buildPhases = (
+				01EA6DDD1CACAF09003B6CFE /* Sources */,
+				01EA6DDE1CACAF09003B6CFE /* Frameworks */,
+				01EA6DDF1CACAF09003B6CFE /* Resources */,
+				0177AEC11CB6025F003DF420 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinnectiveC;
+			productName = KinnectiveC;
+			productReference = 01EA6DE11CACAF09003B6CFE /* KinnectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EA6DD91CACAF09003B6CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qwertyflagstop;
+				TargetAttributes = {
+					015E47CD1CCC2731000B91DD = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					01EA6DE01CACAF09003B6CFE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8VB4RLF77S;
+					};
+				};
+			};
+			buildConfigurationList = 01EA6DDC1CACAF09003B6CFE /* Build configuration list for PBXProject "KinnectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01EA6DD81CACAF09003B6CFE;
+			productRefGroup = 01EA6DE21CACAF09003B6CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EA6DE01CACAF09003B6CFE /* KinnectiveC */,
+				015E47CD1CCC2731000B91DD /* rename */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EA6DDF1CACAF09003B6CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EA6DEB1CACAF09003B6CFE /* Assets.xcassets in Resources */,
+				01EA6DEE1CACAF09003B6CFE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015E47CA1CCC2731000B91DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015E47D11CCC2731000B91DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EA6DDD1CACAF09003B6CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0132B0A31CAEE82A00DC87A3 /* WorldScene.m in Sources */,
+				0132B0781CAE28FB00DC87A3 /* WorldView.m in Sources */,
+				01EA6DE91CACAF09003B6CFE /* main.m in Sources */,
+				01EA6DE61CACAF09003B6CFE /* AppDelegate.m in Sources */,
+				0132B0A01CAE2B3100DC87A3 /* WorlController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01EA6DEC1CACAF09003B6CFE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EA6DED1CACAF09003B6CFE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015E47D21CCC2731000B91DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		015E47D31CCC2731000B91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01EA6DF01CACAF09003B6CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01EA6DF11CACAF09003B6CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01EA6DF31CACAF09003B6CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				INFOPLIST_FILE = KinnectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libfreenect/0.5.1/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.KinnectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinnectiveC/KinnectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01EA6DF41CACAF09003B6CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				INFOPLIST_FILE = KinnectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libfreenect/0.5.1/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.KinnectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KinnectiveC/KinnectiveC-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015E47D41CCC2731000B91DD /* Build configuration list for PBXNativeTarget "rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015E47D21CCC2731000B91DD /* Debug */,
+				015E47D31CCC2731000B91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EA6DDC1CACAF09003B6CFE /* Build configuration list for PBXProject "KinnectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EA6DF01CACAF09003B6CFE /* Debug */,
+				01EA6DF11CACAF09003B6CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EA6DF21CACAF09003B6CFE /* Build configuration list for PBXNativeTarget "KinnectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EA6DF31CACAF09003B6CFE /* Debug */,
+				01EA6DF41CACAF09003B6CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EA6DD91CACAF09003B6CFE /* Project object */;
+}
